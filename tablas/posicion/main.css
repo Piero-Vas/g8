@@ -1,0 +1,69 @@
+.circulo{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(63, 24, 24);
+    left: 500px;
+    top: 100px;
+    border-radius:50%;
+    position: fixed;
+}
+.ojo1{
+    border: 1px solid black;
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    top: -100px;
+    left:30px;
+    position: relative;
+}
+.ojo2{
+    border: 1px solid black;
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    top: -200px;
+    left: 150px;
+    position: relative;
+}
+.circulo1{
+    border: 1px solid black;
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    top: -50px;
+    position: relative;
+}
+.circulo2{
+    border: 1px solid black;
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    top: -150px;
+    left: 200px;
+    position: relative;
+}
+.circulo3{
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(63, 24, 24);
+    left: 500px;
+    top: 400px;
+    border-radius:50%;
+    position: fixed;
+}
+.circulo4{
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+    background-color:black;
+    position: relative;
+    top: 100px;
+    left:80px;
+    border-radius:50%;
+}
