@@ -1,0 +1,19 @@
+body{
+    background-image:url(./pngtree-landscape-background-in-the-snow-mountains-at-night-image_307750.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+
+}
+
+p{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 80px;
+    margin: 0 auto;
+    border-radius:50%;
+    width: 80px;
+    height: 80px;
+    border: 5px solid white;
+    padding-bottom: 10px;
+}

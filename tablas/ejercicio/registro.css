@@ -6,7 +6,7 @@ body{
 
 }
 
-.po{
+p{
     font-family: 'Arial Narrow', Arial, sans-serif;
     color: white;
     font-size: 80px;
@@ -18,7 +18,7 @@ body{
     padding-bottom: 10px;
 }
 
-input[type="text"], input[type="password"]{
+input[type="text"], input[type="password"], input[type="email"]{
     font-family: 'Arial Narrow', Arial, sans-serif;
     background-color: transparent;
     border: 1px solid white;
@@ -34,16 +34,10 @@ input[type="text"], input[type="password"]{
 
 }
 
-input[type="checkbox"], label{
-    position: relative;
-    right: -60px;
-    margin-top:20px;
-    color: rgba(255, 255, 255, 0.808);
-}
 .btn{
     font-family: 'Arial Narrow', Arial, sans-serif;
     position: relative;
-    margin-top: 10px;
+    margin-top: 20px;
     border: 1px solid #D4DBEC;
     border-radius: 50px;
     background-color: #D4DBEC;
@@ -80,11 +74,8 @@ input[type="checkbox"], label{
 a{
     
     color: rgba(255, 255, 255, 0.808);
+    left:-40px;
     position: relative;
     font-size: 12px;
 }
 
-p{
-    margin:0;
-    color:rgba(255, 255, 255, 0.808);
-}
