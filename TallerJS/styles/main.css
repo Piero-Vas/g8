@@ -1,0 +1,8 @@
+.blue-input:focus {
+    color: red;
+    outline: none;
+    border-color:red;
+  }
+
+
+

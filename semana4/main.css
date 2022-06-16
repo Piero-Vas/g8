@@ -1,0 +1,104 @@
+
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, #F06, #000 , red);
+}
+
+.texto-animado-uno{
+    animation-name: text-animado;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border: solid;
+}
+@keyframes text-animado {
+    from{
+        margin-left: 100%;
+        width: 500px;
+        background-color: blue;
+        border: none;
+
+    }
+    to{
+        margin-left: -100%;
+        background-color: red;
+        color: white;
+        border: none;
+
+
+    }
+}
+.imagen-animada{
+    animation-name: imagen-resize ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imagen-resize {
+    from{
+        width: 20px;
+        height: 20px;
+    }
+    to{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.ball{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+    animation-name: bola ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bola {
+    from{
+        transform: translateY(0px)
+    }
+    to{
+        transform: translateY(-150px)
+    }
+}
+
+.lineas {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-size: 24px;
+    white-space: nowrap;
+    border-right: 2px solid black;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.texto-animado-dos {
+    animation: texto-animado-dos 5s steps(144) 1s normal both, cursor 0.5s steps(50) infinite normal;
+    animation-duration: infinite;
+}
+
+@keyframes texto-animado-dos {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 600px;
+    }
+}
+
+@keyframes cursor {
+    from {
+        border-right-color: red;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+
+
+}
