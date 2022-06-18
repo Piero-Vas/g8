@@ -1,0 +1,24 @@
+//dark mode
+
+$bg-dark : #4C3A51;
+$text-dark : white;
+
+
+//light mode
+
+$bg-light : green;
+$text-light: black;
+
+
+@mixin theme($mode, $bg, $txtC) {
+    body[data-mode="#{$mode}"] {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial';
+        background-color: $bg;
+        color: $txtC;
+    }
+    
+}
+
+@include theme('light',$bg-light ,$text-light );
+
+@include theme('dark',$bg-dark ,$text-dark );
